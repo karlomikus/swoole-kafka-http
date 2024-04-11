@@ -1,0 +1,23 @@
+{
+    "name": "karlo/lrp",
+    "autoload": {
+        "psr-4": {
+            "Kami\\LRP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karlo Mikuš",
+            "email": "karlo.mikus1@gmail.com"
+        }
+    ],
+    "require": {
+        "openswoole/core": "^22.1",
+        "monolog/monolog": "^3.5",
+        "php-di/php-di": "^7.0"
+    },
+    "require-dev": {
+        "openswoole/ide-helper": "~22.0.1",
+        "kwn/php-rdkafka-stubs": "^2.2"
+    }
+}
